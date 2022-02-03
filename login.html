@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My project</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  
+
+   <!-- <a href="https://cssanimation.rocks/"></a>  -->
+
+</head>
+
+<body>
+  
+  <style type="text/css">
+    
+    #hero{
+      background-image:  linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)), url(img/4.jpg);
+      background-size: cover;
+      background-position: top center;
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+  
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>M</span>ONU <span>K</span>umar <SPAN>T</SPAN>hakur</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="services.html" data-after="Services">Services</a></li>
+            <li><a href="#projects" data-after="Project">Project</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="hero">
+  <div class="hero container"> 
+    <div>
+      <h1>Hello, <span></span></h1>
+      <h1>World It's <span></span></h1>
+      <h1>Monu Kumar <span></span></h1>
+      <a href="#projects" type="button" class="cta">Click Me</a>
+    </div>
+  </div>
+</section>
+<style type="text/css">
+  .container{
+    width: 100%;
+    height: 100%;
+    font-style: sans-serif;
+    /*background: rgb(187,187,245);*/
+    color: #fff;
+  }
+  .card{
+    width:350px;
+    height: 425px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26); 
+  }
+  .inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+  .card-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)), url(img/5.jpg);
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+  .card h2{
+    font-weight: normal;;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  .input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box; 
+    outline: none;
+    text-align: center;
+    color: #fff;
+  }
+  .submit-btn{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 30px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+  }
+  .submit-btn::after{
+content:'\27a4';
+color: #333;
+line-height: 32px;
+font-size: 17px;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+background: #fff;
+position: absolute;
+right: -1px;
+top: -1px;
+  }
+ .me{
+font-size: 14px;
+  }
+  .card a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .card a:hover{
+    transform: translate(0.5);
+    color: red;
+
+  }
+</style>
+<div class="container">
+  <div class="card">
+    <div class="inner-box">
+      <div class="card-front">
+        <h2>Login</h2>
+        <form>
+          <input type="email" name="" class="input-box" placeholder="Email" required="">
+          <input type="password" name="" class="input-box" placeholder="Password" required="">
+          <a href="">Forget password?</a>
+          <button type="submit" class="submit-btn">Login</button>
+          <input type="checkbox" name=""><span class="me">Remember Me</span>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+<section id="footer">
+  <div class="footer container">
+    <div class="brand"><h1><span>M</span>ONU <span>K</span>umar <SPAN>T</SPAN>hakur</h1></div>
+    <h2>Your website solution</h2>
+    <div class="social-icon">
+      <div class="social-item">
+        <a href=""><img src="https://img.icons8.com/nolan/64/facebook.png"/></a>
+      </div>
+      <div class="social-item">
+        <a href=""><img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png"/></a>
+      </div>
+      <div class="social-item">
+        <a href=""><img src="https://img.icons8.com/bubbles/50/000000/whatsapp.png"/></a>
+      </div>
+      <div class="social-item">
+        <a href=""><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></a>
+      </div>
+    </div>
+    <p>Copyright 2021 &copy; All rights reserved | Made by <span>MONU KUMAR</span></p>
+       
+
+  </div>    
+</section>  
+<script type="text/javascript">
+  const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+const header = document.querySelector('.header.container');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  mobile_menu.classList.toggle('active');
+});
+
+document.addEventListener('scroll', () => {
+  var scroll_position = window.scrollY;
+  if (scroll_position > 250) {
+    header.style.backgroundColor = '#29323c';
+  } else {
+    header.style.backgroundColor = 'transparent';
+  }
+});
+
+menu_item.forEach((item) => {
+  item.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobile_menu.classList.toggle('active');
+  });
+});
+
+</script>
+<!-- <script src="main.js"></script>               -->
+</body>
+</html>
